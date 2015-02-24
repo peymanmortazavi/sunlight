@@ -28,7 +28,7 @@ var floor_updates = {
 
     load: function() {
 
-        $.get("/sunlight/legislators/ui.jade", function(template) {
+        $.get("/sunlight/floor_updates/ui.jade", function(template) {
             var html = jade.render(template)
             $("#ui").html(html)
         })
